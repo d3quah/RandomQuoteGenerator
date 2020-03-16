@@ -1,0 +1,78 @@
+
+/*General*/
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #e6f2c2;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font: Helvetica Neue, Helvectica, Arial, serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #8d9aa5;
+    font-family: 'Open Sans', sans-serif;
+  
+  }
+  .btn {
+    width: 150px;
+    height: 50px;
+    background-color: #e0f0d3;
+    border: none;
+    padding: 5px 9px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border: 2px solid #4CAF50;
+    box-sizing: border-box;
+    transition: width 0.5s, height 0.5s;
+    border-radius: 5px;
+    position:relative;
+    top:2px;
+  
+  }
+  
+  .btn:active {
+      padding-bottom:9px;
+      padding-left:10px;
+      padding-right:10px;
+      padding-top:11px;
+      top:1px;
+  }
+  
+  .btn:hover {
+    background-color: #f0bdc5;
+    color: white;
+    width: 175px;
+    height: 60px;
+    font-size:19px;
+  }
+  #quoteGoesHere {
+    text-align: center;
+    justify-content: center;
+    background-color: #e7f7da;
+    height: 200px;
+    width: 700px;
+    border: 1px solid #666;
+    padding-top: 60px;
+    color: #0d0607;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  
+  
+    
